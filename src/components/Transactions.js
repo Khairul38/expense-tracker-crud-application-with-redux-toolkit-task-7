@@ -13,7 +13,7 @@ const Transactions = () => {
 
   useEffect(() => {
     dispatch(fetchTransactions({ type, search, page }));
-  }, [dispatch]);
+  }, [dispatch, type, search, page]);
 
   // decide what to render
   let content = null;

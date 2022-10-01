@@ -29,6 +29,6 @@ export const editTransaction = async (id, data) => {
 };
 
 export const deleteTransaction = async (id) => {
-  const response = await axios.delete(`/transactions/${id}`);
+  await axios.delete(`/transactions/${id}`);
   return id;
 };
