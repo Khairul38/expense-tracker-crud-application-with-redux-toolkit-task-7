@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-  baseURL: "https://fake--json-server.herokuapp.com",
+  baseURL: "https://fake-product-api-json-server.vercel.app",
 });
 
 export default axiosInstance;
